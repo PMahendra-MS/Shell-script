@@ -17,3 +17,6 @@ FRUITS=("Apple" "Banana" "Pappaya")
 echo "All fruits: ${FRUITS[@]}"
 echo "First fruit: ${FRUITS[1]}"
 
+name="mahendra P"
+
+echo "${name}eravali"
