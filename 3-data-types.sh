@@ -7,7 +7,7 @@ var3=mahi
 echo "$var1+$var2"
 echo "$(($var1+$var2+$var3))"
 
-declare -i COUNT=5 
-COUNT=COUNT +1 
+declare -i COUNT=5
+COUNT=COUNT+1 
 
 echo "$COUNT"
