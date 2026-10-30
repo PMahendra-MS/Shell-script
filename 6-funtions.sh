@@ -17,10 +17,10 @@ validate(){
 }
 
 echo "proceeding...."
-dnf install nginx -y
+apt-get install nginx -y
 validate $? "Nginx Installation"
 
-dnf install mysql -y
+apt-get install mysql -y
 validate $? "Mysql Installation"
 
 echo "Still proceeded..."
